@@ -38,11 +38,13 @@ This project demonstrates advanced software engineering and machine learning ski
 ### Anomaly Detection Methods
 
 1. **Statistical Anomaly Detection**
+
    - Moving averages and standard deviation
    - Z-score calculation for price deviations
    - Configurable thresholds and window sizes
 
 2. **Volume Anomaly Detection**
+
    - Unusual trading volume patterns
    - Separate thresholds for volume spikes
    - Context-aware volume analysis
@@ -73,6 +75,7 @@ This project demonstrates advanced software engineering and machine learning ski
 1. **Clone or download the project files**
 
 2. **Install dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -93,6 +96,7 @@ python stock_anomaly_detector.py
 ```
 
 The system will:
+
 1. Load historical data for configured stocks
 2. Train the ML models
 3. Start real-time monitoring
@@ -105,13 +109,13 @@ Edit `config.json` to customize:
 
 ```json
 {
-    "symbols": ["AAPL", "GOOGL", "MSFT", "TSLA", "AMZN"],
-    "monitoring_interval": 300,  // 5 minutes
-    "training_period": "1y",     // 1 year of historical data
-    "statistical_detector": {
-        "window_size": 20,
-        "threshold_multiplier": 2.0
-    }
+  "symbols": ["AAPL", "GOOGL", "MSFT", "TSLA", "AMZN"],
+  "monitoring_interval": 300, // 5 minutes
+  "training_period": "1y", // 1 year of historical data
+  "statistical_detector": {
+    "window_size": 20,
+    "threshold_multiplier": 2.0
+  }
 }
 ```
 
@@ -120,11 +124,12 @@ Edit `config.json` to customize:
 The system detects several types of anomalies:
 
 - **PRICE_SPIKE**: Unusual price increases
-- **PRICE_DROP**: Unusual price decreases  
+- **PRICE_DROP**: Unusual price decreases
 - **VOLUME_SPIKE**: Abnormal trading volume
 - **LSTM_PATTERN_ANOMALY**: Complex pattern deviations
 
 Each anomaly includes:
+
 - Severity level (HIGH/MEDIUM)
 - Confidence score
 - Expected vs actual values
@@ -171,17 +176,20 @@ stock_anomaly_detector/
 ### Machine Learning Details
 
 **Statistical Model**:
+
 - Uses rolling windows for moving averages
 - Z-score calculation for deviation measurement
 - Configurable threshold multipliers
 
 **LSTM Model**:
+
 - 30-day sequence prediction
 - 2-layer LSTM with dropout
 - Min-max scaling for normalization
 - Percentile-based threshold setting
 
 **Volume Analysis**:
+
 - Separate statistical analysis for volume
 - Higher thresholds for volume anomalies
 - Context-aware volume spike detection
@@ -197,7 +205,7 @@ class CustomAnomalyDetector(AnomalyDetector):
     def train(self, data: pd.DataFrame):
         # Implement training logic
         pass
-    
+
     def detect_anomalies(self, data: pd.DataFrame, current_price: float):
         # Implement detection logic
         return anomalies
@@ -213,7 +221,7 @@ conn = sqlite3.connect('stock_anomaly_detector.db')
 
 # Get recent anomalies
 recent_anomalies = pd.read_sql_query('''
-    SELECT * FROM anomaly_alerts 
+    SELECT * FROM anomaly_alerts
     WHERE datetime(timestamp) >= datetime('now', '-1 day')
 ''', conn)
 ```
@@ -243,7 +251,7 @@ Potential improvements:
 
 1. **Additional Data Sources**: Integrate news sentiment, social media
 2. **More ML Models**: Random Forest, SVM, ensemble methods
-3. **Advanced Alerts**: Telegram, Slack, webhook notifications  
+3. **Advanced Alerts**: Telegram, Slack, webhook notifications
 4. **Web Dashboard**: Real-time visualization interface
 5. **Portfolio Integration**: Track portfolio-specific anomalies
 6. **Backtesting**: Historical performance analysis
@@ -253,12 +261,14 @@ Potential improvements:
 This project showcases:
 
 ### AI/ML Skills
+
 - Time series analysis and forecasting
 - Deep learning with LSTM networks
 - Statistical modeling and hypothesis testing
 - Feature engineering and data preprocessing
 
 ### Software Engineering
+
 - Object-oriented design patterns
 - Modular architecture and separation of concerns
 - Error handling and logging
@@ -266,12 +276,14 @@ This project showcases:
 - Database design and ORM
 
 ### Critical Thinking
+
 - Anomaly definition in financial contexts
 - Market regime consideration
 - False positive minimization
 - Risk assessment and severity scoring
 
 ### Problem Solving
+
 - API rate limit management
 - Real-time data processing
 - Memory-efficient model training
@@ -283,5 +295,33 @@ This project showcases:
 - [LSTM for Time Series Prediction](https://keras.io/examples/timeseries/)
 - [Statistical Anomaly Detection Methods](https://en.wikipedia.org/wiki/Anomaly_detection)
 
-#   2 2 2 1 1 a 6 7 8 8 - t e c h s o p h y  
- 
+## 🌐 Streamlit Web Dashboard
+
+A modern, interactive web dashboard is included for real-time visualization and control.
+
+### Features
+
+- **Live Stock Monitoring**: Select stocks and see real-time price and anomaly updates.
+- **Multiple Anomaly Detection Methods**: Choose between statistical, LSTM, and volume spike detection.
+- **Advanced Visualizations**: Interactive Plotly candlestick charts with anomaly markers and moving averages.
+- **Explainable AI**: Expandable explanations for each detected anomaly.
+- **Auto-Refresh**: Set your preferred refresh interval for live updates.
+- **User Controls**: Adjust detection sensitivity and methods from the sidebar.
+
+### How to Run
+
+1. Install dependencies (if not already):
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Start the dashboard:
+   ```bash
+   streamlit run dashboard.py
+   ```
+3. Open the provided local URL (usually http://localhost:8501/) in your browser.
+
+### Example Screenshot
+
+![Dashboard Screenshot](stock_analysis_example.png)
+
+---
