@@ -1,0 +1,1128 @@
+2025-07-07 11:17:15,811 - __main__ - INFO - Database initialized successfully
+2025-07-07 11:17:15,812 - __main__ - INFO - Initializing Stock Anomaly Detection System...
+2025-07-07 11:17:15,812 - __main__ - INFO - Loading historical data for AAPL...
+2025-07-07 11:17:19,030 - __main__ - INFO - Retrieved 250 historical records for AAPL
+2025-07-07 11:17:19,037 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-07 11:17:19,037 - __main__ - INFO - Training statistical detector for AAPL...
+2025-07-07 11:17:19,040 - __main__ - INFO - Statistical model trained. MA: 201.96, STD: 4.76
+2025-07-07 11:17:19,040 - __main__ - INFO - Training volume detector for AAPL...
+2025-07-07 11:17:19,041 - __main__ - INFO - Volume model trained. Avg: 57834345, STD: 17369837
+2025-07-07 11:17:19,041 - __main__ - INFO - Training lstm detector for AAPL...
+2025-07-07 11:17:29,278 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.145797
+2025-07-07 11:17:29,278 - __main__ - INFO - Loading historical data for GOOGL...
+2025-07-07 11:17:29,468 - __main__ - INFO - Retrieved 250 historical records for GOOGL
+2025-07-07 11:17:29,468 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-07 11:17:29,468 - __main__ - INFO - Training statistical detector for GOOGL...
+2025-07-07 11:17:29,468 - __main__ - INFO - Statistical model trained. MA: 174.08, STD: 4.38
+2025-07-07 11:17:29,468 - __main__ - INFO - Training volume detector for GOOGL...
+2025-07-07 11:17:29,468 - __main__ - INFO - Volume model trained. Avg: 41175375, STD: 21799575
+2025-07-07 11:17:29,468 - __main__ - INFO - Training lstm detector for GOOGL...
+2025-07-07 11:17:39,271 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.155800
+2025-07-07 11:17:39,271 - __main__ - INFO - Loading historical data for MSFT...
+2025-07-07 11:17:39,518 - __main__ - INFO - Retrieved 250 historical records for MSFT
+2025-07-07 11:17:39,528 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-07 11:17:39,528 - __main__ - INFO - Training statistical detector for MSFT...
+2025-07-07 11:17:39,528 - __main__ - INFO - Statistical model trained. MA: 483.21, STD: 10.36
+2025-07-07 11:17:39,528 - __main__ - INFO - Training volume detector for MSFT...
+2025-07-07 11:17:39,528 - __main__ - INFO - Volume model trained. Avg: 20248595, STD: 6501696
+2025-07-07 11:17:39,528 - __main__ - INFO - Training lstm detector for MSFT...
+2025-07-07 11:17:50,476 - tensorflow - WARNING - 5 out of the last 15 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000024FD1344C10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-07 11:17:50,736 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.152455
+2025-07-07 11:17:50,736 - __main__ - INFO - Loading historical data for TSLA...
+2025-07-07 11:17:50,902 - __main__ - INFO - Retrieved 250 historical records for TSLA
+2025-07-07 11:17:50,905 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-07 11:17:50,905 - __main__ - INFO - Training statistical detector for TSLA...
+2025-07-07 11:17:50,906 - __main__ - INFO - Statistical model trained. MA: 319.53, STD: 14.45
+2025-07-07 11:17:50,906 - __main__ - INFO - Training volume detector for TSLA...
+2025-07-07 11:17:50,908 - __main__ - INFO - Volume model trained. Avg: 123563160, STD: 50510323
+2025-07-07 11:17:50,908 - __main__ - INFO - Training lstm detector for TSLA...
+2025-07-07 11:18:00,928 - tensorflow - WARNING - 5 out of the last 15 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000024F839D2440> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-07 11:18:01,168 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.156579
+2025-07-07 11:18:01,168 - __main__ - INFO - Loading historical data for AMZN...
+2025-07-07 11:18:01,428 - __main__ - INFO - Retrieved 250 historical records for AMZN
+2025-07-07 11:18:01,428 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-07 11:18:01,428 - __main__ - INFO - Training statistical detector for AMZN...
+2025-07-07 11:18:01,428 - __main__ - INFO - Statistical model trained. MA: 215.23, STD: 4.51
+2025-07-07 11:18:01,428 - __main__ - INFO - Training volume detector for AMZN...
+2025-07-07 11:18:01,438 - __main__ - INFO - Volume model trained. Avg: 43915165, STD: 21234895
+2025-07-07 11:18:01,438 - __main__ - INFO - Training lstm detector for AMZN...
+2025-07-07 11:18:11,788 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.161509
+2025-07-07 11:18:11,788 - __main__ - INFO - Loading historical data for NVDA...
+2025-07-07 11:18:11,998 - __main__ - INFO - Retrieved 250 historical records for NVDA
+2025-07-07 11:18:12,004 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-07 11:18:12,004 - __main__ - INFO - Training statistical detector for NVDA...
+2025-07-07 11:18:12,004 - __main__ - INFO - Statistical model trained. MA: 148.16, STD: 6.53
+2025-07-07 11:18:12,004 - __main__ - INFO - Training volume detector for NVDA...
+2025-07-07 11:18:12,004 - __main__ - INFO - Volume model trained. Avg: 187950895, STD: 38209427
+2025-07-07 11:18:12,004 - __main__ - INFO - Training lstm detector for NVDA...
+2025-07-07 11:18:22,282 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.167967
+2025-07-07 11:18:22,282 - __main__ - INFO - Loading historical data for META...
+2025-07-07 11:18:22,563 - __main__ - INFO - Retrieved 250 historical records for META
+2025-07-07 11:18:22,568 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-07 11:18:22,568 - __main__ - INFO - Training statistical detector for META...
+2025-07-07 11:18:22,568 - __main__ - INFO - Statistical model trained. MA: 704.60, STD: 16.28
+2025-07-07 11:18:22,568 - __main__ - INFO - Training volume detector for META...
+2025-07-07 11:18:22,568 - __main__ - INFO - Volume model trained. Avg: 12237160, STD: 3642374
+2025-07-07 11:18:22,568 - __main__ - INFO - Training lstm detector for META...
+2025-07-07 11:18:32,817 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.143712
+2025-07-07 11:18:32,817 - __main__ - INFO - System initialization completed!
+2025-07-07 11:18:32,827 - __main__ - INFO - Starting stock monitoring...
+2025-07-07 11:18:33,338 - __main__ - INFO - Analyzing AAPL: $213.55 (+0.52%)
+2025-07-07 11:18:33,413 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-07 11:18:33,417 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-07 11:18:33,427 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - MEDIUM
+2025-07-07 11:18:34,245 - __main__ - INFO - Analyzing GOOGL: $179.53 (+0.50%)
+2025-07-07 11:18:34,325 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-07 11:18:34,333 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - MEDIUM
+2025-07-07 11:18:35,198 - __main__ - INFO - Analyzing MSFT: $498.84 (+1.58%)
+2025-07-07 11:18:35,288 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-07 11:18:36,171 - __main__ - INFO - Analyzing TSLA: $315.35 (-0.10%)
+2025-07-07 11:18:36,248 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-07 11:18:36,259 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-07 11:18:37,188 - __main__ - INFO - Analyzing AMZN: $223.41 (+1.59%)
+2025-07-07 11:18:37,273 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-07 11:18:37,291 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - MEDIUM
+2025-07-07 11:18:37,304 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - MEDIUM
+2025-07-07 11:18:38,358 - __main__ - INFO - Analyzing NVDA: $159.34 (+1.33%)
+2025-07-07 11:18:38,437 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-07 11:18:38,446 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-07 11:18:38,453 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - MEDIUM
+2025-07-07 11:18:39,198 - __main__ - INFO - Analyzing META: $719.01 (+0.76%)
+2025-07-07 11:18:39,270 - __main__ - INFO - No anomalies detected for META
+2025-07-07 11:18:39,270 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-07 11:22:40,307 - __main__ - INFO - Monitoring stopped by user
+2025-07-07 11:23:05,382 - stock_anomaly_detector - WARNING - ANOMALY DETECTED: AAPL - PRICE_SPIKE - HIGH
+2025-07-07 11:23:05,395 - stock_anomaly_detector - INFO - Database initialized successfully
+2025-07-07 11:23:05,417 - stock_anomaly_detector - INFO - Data validation completed. Rows: 364
+2025-07-07 11:23:05,423 - stock_anomaly_detector - INFO - Data validation completed. Rows: 359
+2025-07-07 11:23:05,427 - stock_anomaly_detector - INFO - Data validation completed. Rows: 359
+2025-07-07 11:23:05,432 - stock_anomaly_detector - INFO - Statistical model trained. MA: 150.88, STD: 0.56
+2025-07-07 11:23:05,432 - stock_anomaly_detector - INFO - Volume model trained. Avg: 2604105, STD: 1055071
+2025-07-07 11:23:05,449 - stock_anomaly_detector - INFO - Database initialized successfully
+2025-07-07 11:23:05,457 - stock_anomaly_detector - INFO - Initializing Stock Anomaly Detection System...
+2025-07-07 11:23:05,457 - stock_anomaly_detector - INFO - Loading historical data for AAPL...
+2025-07-07 11:23:05,617 - stock_anomaly_detector - INFO - Retrieved 21 historical records for AAPL
+2025-07-07 11:23:05,617 - stock_anomaly_detector - INFO - Data validation completed. Rows: 20
+2025-07-07 11:23:05,617 - stock_anomaly_detector - INFO - Training statistical detector for AAPL...
+2025-07-07 11:23:05,617 - stock_anomaly_detector - INFO - Statistical model trained. MA: 201.96, STD: 4.76
+2025-07-07 11:23:05,617 - stock_anomaly_detector - INFO - Training volume detector for AAPL...
+2025-07-07 11:23:05,624 - stock_anomaly_detector - INFO - Volume model trained. Avg: 57834345, STD: 17369837
+2025-07-07 11:23:05,624 - stock_anomaly_detector - INFO - Training lstm detector for AAPL...
+2025-07-07 11:23:05,624 - stock_anomaly_detector - WARNING - Insufficient data for LSTM training
+2025-07-07 11:23:05,625 - stock_anomaly_detector - INFO - System initialization completed!
+2025-07-07 11:23:36,589 - stock_anomaly_detector - INFO - Retrieved 62 historical records for AAPL
+2025-07-07 11:23:36,589 - stock_anomaly_detector - INFO - Data validation completed. Rows: 61
+2025-07-08 11:04:00,138 - __main__ - INFO - Database initialized successfully
+2025-07-08 11:04:00,139 - __main__ - INFO - Initializing Stock Anomaly Detection System...
+2025-07-08 11:04:00,139 - __main__ - INFO - Loading historical data for AAPL...
+2025-07-08 11:04:05,090 - __main__ - INFO - Retrieved 250 historical records for AAPL
+2025-07-08 11:04:05,096 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-08 11:04:05,096 - __main__ - INFO - Training statistical detector for AAPL...
+2025-07-08 11:04:05,097 - __main__ - INFO - Statistical model trained. MA: 202.42, STD: 5.07
+2025-07-08 11:04:05,097 - __main__ - INFO - Training volume detector for AAPL...
+2025-07-08 11:04:05,098 - __main__ - INFO - Volume model trained. Avg: 57583205, STD: 17447193
+2025-07-08 11:04:05,099 - __main__ - INFO - Training lstm detector for AAPL...
+2025-07-08 11:04:11,481 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.144601
+2025-07-08 11:04:11,483 - __main__ - INFO - Loading historical data for GOOGL...
+2025-07-08 11:04:12,113 - __main__ - INFO - Retrieved 250 historical records for GOOGL
+2025-07-08 11:04:12,114 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-08 11:04:12,114 - __main__ - INFO - Training statistical detector for GOOGL...
+2025-07-08 11:04:12,116 - __main__ - INFO - Statistical model trained. MA: 174.51, STD: 4.17
+2025-07-08 11:04:12,116 - __main__ - INFO - Training volume detector for GOOGL...
+2025-07-08 11:04:12,116 - __main__ - INFO - Volume model trained. Avg: 41063115, STD: 21831331
+2025-07-08 11:04:12,116 - __main__ - INFO - Training lstm detector for GOOGL...
+2025-07-08 11:04:18,404 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.155628
+2025-07-08 11:04:18,404 - __main__ - INFO - Loading historical data for MSFT...
+2025-07-08 11:04:19,671 - __main__ - INFO - Retrieved 250 historical records for MSFT
+2025-07-08 11:04:19,674 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-08 11:04:19,674 - __main__ - INFO - Training statistical detector for MSFT...
+2025-07-08 11:04:19,675 - __main__ - INFO - Statistical model trained. MA: 484.71, STD: 10.17
+2025-07-08 11:04:19,675 - __main__ - INFO - Training volume detector for MSFT...
+2025-07-08 11:04:19,675 - __main__ - INFO - Volume model trained. Avg: 19940540, STD: 6651753
+2025-07-08 11:04:19,675 - __main__ - INFO - Training lstm detector for MSFT...
+2025-07-08 11:04:25,480 - tensorflow - WARNING - 5 out of the last 15 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001D80F85BB00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-08 11:04:25,638 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.145973
+2025-07-08 11:04:25,638 - __main__ - INFO - Loading historical data for TSLA...
+2025-07-08 11:04:27,999 - __main__ - INFO - Retrieved 250 historical records for TSLA
+2025-07-08 11:04:28,001 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-08 11:04:28,001 - __main__ - INFO - Training statistical detector for TSLA...
+2025-07-08 11:04:28,001 - __main__ - INFO - Statistical model trained. MA: 319.99, STD: 13.38
+2025-07-08 11:04:28,001 - __main__ - INFO - Training volume detector for TSLA...
+2025-07-08 11:04:28,002 - __main__ - INFO - Volume model trained. Avg: 115713880, STD: 32779512
+2025-07-08 11:04:28,002 - __main__ - INFO - Training lstm detector for TSLA...
+2025-07-08 11:04:34,420 - tensorflow - WARNING - 5 out of the last 15 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001D812F82480> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-08 11:04:34,578 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.156126
+2025-07-08 11:04:34,579 - __main__ - INFO - Loading historical data for AMZN...
+2025-07-08 11:04:35,790 - __main__ - INFO - Retrieved 250 historical records for AMZN
+2025-07-08 11:04:35,792 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-08 11:04:35,793 - __main__ - INFO - Training statistical detector for AMZN...
+2025-07-08 11:04:35,793 - __main__ - INFO - Statistical model trained. MA: 216.01, STD: 4.52
+2025-07-08 11:04:35,793 - __main__ - INFO - Training volume detector for AMZN...
+2025-07-08 11:04:35,794 - __main__ - INFO - Volume model trained. Avg: 43149770, STD: 21209164
+2025-07-08 11:04:35,794 - __main__ - INFO - Training lstm detector for AMZN...
+2025-07-08 11:04:45,850 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.137895
+2025-07-08 11:04:45,850 - __main__ - INFO - Loading historical data for NVDA...
+2025-07-08 11:04:47,513 - __main__ - INFO - Retrieved 250 historical records for NVDA
+2025-07-08 11:04:47,515 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-08 11:04:47,515 - __main__ - INFO - Training statistical detector for NVDA...
+2025-07-08 11:04:47,516 - __main__ - INFO - Statistical model trained. MA: 149.07, STD: 6.61
+2025-07-08 11:04:47,516 - __main__ - INFO - Training volume detector for NVDA...
+2025-07-08 11:04:47,517 - __main__ - INFO - Volume model trained. Avg: 183370705, STD: 38217603
+2025-07-08 11:04:47,517 - __main__ - INFO - Training lstm detector for NVDA...
+2025-07-08 11:04:57,413 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.180076
+2025-07-08 11:04:57,413 - __main__ - INFO - Loading historical data for META...
+2025-07-08 11:04:59,790 - __main__ - INFO - Retrieved 250 historical records for META
+2025-07-08 11:04:59,793 - __main__ - INFO - Data validation completed. Rows: 249
+2025-07-08 11:04:59,793 - __main__ - INFO - Training statistical detector for META...
+2025-07-08 11:04:59,795 - __main__ - INFO - Statistical model trained. MA: 706.31, STD: 15.80
+2025-07-08 11:04:59,795 - __main__ - INFO - Training volume detector for META...
+2025-07-08 11:04:59,795 - __main__ - INFO - Volume model trained. Avg: 12055020, STD: 3688633
+2025-07-08 11:04:59,795 - __main__ - INFO - Training lstm detector for META...
+2025-07-08 11:05:10,005 - __main__ - INFO - LSTM model trained successfully. Threshold: 0.134679
+2025-07-08 11:05:10,006 - __main__ - INFO - System initialization completed!
+2025-07-08 11:05:10,010 - __main__ - INFO - Starting stock monitoring...
+2025-07-08 11:05:12,263 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:05:12,323 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:05:12,329 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:05:12,334 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:05:15,047 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:05:15,108 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:05:15,115 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:05:15,119 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:05:18,204 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:05:18,260 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:05:21,745 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:05:21,806 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:05:21,811 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:05:21,817 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:05:24,346 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:05:24,409 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:05:24,414 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:05:24,419 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:05:27,131 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:05:27,191 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:05:27,198 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:05:27,203 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:05:29,564 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:05:29,621 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:05:29,621 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:10:34,086 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:10:34,144 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:10:34,151 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:10:34,157 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:10:35,194 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:10:35,266 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:10:35,273 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:10:35,277 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:10:36,683 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:10:36,744 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:10:37,979 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:10:38,037 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:10:38,044 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:10:38,050 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:10:40,213 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:10:40,273 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:10:40,279 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:10:40,283 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:10:41,338 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:10:41,393 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:10:41,399 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:10:41,404 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:10:43,687 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:10:43,746 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:10:43,746 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:15:46,450 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:15:46,507 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:15:46,513 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:15:46,517 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:15:47,749 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:15:47,806 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:15:47,812 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:15:47,817 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:15:48,507 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:15:48,565 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:15:49,626 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:15:49,678 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:15:49,683 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:15:49,689 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:15:51,484 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:15:51,538 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:15:51,543 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:15:51,548 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:15:52,230 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:15:52,286 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:15:52,292 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:15:52,298 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:15:53,150 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:15:53,204 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:15:53,204 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:20:58,401 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:20:58,436 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:20:58,440 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:20:58,443 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:21:01,195 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:21:01,231 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:21:01,235 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:21:01,240 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:21:04,346 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:21:04,389 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:21:06,757 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:21:06,794 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:21:06,798 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:21:06,804 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:21:08,818 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:21:08,853 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:21:08,857 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:21:08,861 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:21:11,044 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:21:11,080 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:21:11,083 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:21:11,088 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:21:12,556 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:21:12,591 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:21:12,592 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:26:17,063 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:26:17,099 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:26:17,102 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:26:17,106 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:26:17,809 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:26:17,848 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:26:17,852 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:26:17,855 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:26:19,101 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:26:19,136 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:26:19,869 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:26:19,903 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:26:19,907 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:26:19,911 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:26:21,159 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:26:21,196 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:26:21,199 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:26:21,203 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:26:21,897 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:26:21,931 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:26:21,935 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:26:21,939 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:26:22,821 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:26:22,857 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:26:22,857 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:31:28,004 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:31:28,039 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:31:28,043 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:31:28,046 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:31:32,086 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:31:32,123 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:31:32,128 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:31:32,132 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:31:37,904 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:31:37,939 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:31:41,080 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:31:41,117 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:31:41,121 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:31:41,125 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:31:43,865 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:31:43,900 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:31:43,904 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:31:43,907 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:31:46,087 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:31:46,124 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:31:46,127 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:31:46,131 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:31:48,893 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:31:48,927 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:31:48,927 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:37:04,736 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:37:04,770 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:37:04,773 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:37:04,777 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:37:13,226 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:37:13,261 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:37:13,265 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:37:13,268 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:37:21,340 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:37:21,375 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:37:30,825 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:37:30,858 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:37:30,861 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:37:30,865 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:37:37,704 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:37:37,740 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:37:37,744 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:37:37,748 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:37:57,412 - yfinance - ERROR - Failed to perform, curl: (16) . See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-07-08 11:37:57,412 - __main__ - ERROR - Error fetching real-time data for NVDA: argument of type 'NoneType' is not iterable
+2025-07-08 11:37:57,412 - __main__ - WARNING - Could not fetch data for NVDA
+2025-07-08 11:38:20,618 - yfinance - ERROR - $META: possibly delisted; no price data found  (period=2d)
+2025-07-08 11:38:20,618 - __main__ - WARNING - Could not fetch data for META
+2025-07-08 11:38:20,619 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:43:22,908 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:43:22,946 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:43:22,953 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:43:22,956 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:43:24,393 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:43:24,429 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:43:24,434 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:43:24,437 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:43:25,344 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:43:25,379 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:43:26,607 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:43:26,639 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:43:26,644 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:43:26,648 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:43:31,706 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:43:31,741 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:43:31,745 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:43:31,749 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:43:37,781 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:43:37,817 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:43:37,822 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:43:37,826 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:43:42,619 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:43:42,655 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:43:42,656 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:47:55,760 - stock_anomaly_detector - INFO - Fetched 122 rows for AAPL
+2025-07-08 11:47:55,763 - stock_anomaly_detector - INFO - Sanitized data. Rows: 121
+2025-07-08 11:48:27,301 - stock_anomaly_detector - INFO - Fetched 122 rows for AAPL
+2025-07-08 11:48:27,303 - stock_anomaly_detector - INFO - Sanitized data. Rows: 121
+2025-07-08 11:48:32,281 - stock_anomaly_detector - INFO - LSTM trained. Threshold: 0.184348
+2025-07-08 11:48:45,138 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:48:45,176 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:48:45,180 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:48:45,184 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:48:45,875 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:48:45,911 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:48:45,914 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:48:45,918 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:48:46,978 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:48:47,012 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:48:48,227 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:48:48,264 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:48:48,268 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:48:48,272 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:48:48,950 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:48:48,984 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:48:48,988 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:48:48,991 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:48:50,084 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:48:50,118 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:48:50,122 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:48:50,126 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:48:51,006 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:48:51,038 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:48:51,038 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:48:52,806 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:48:52,808 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:49:48,378 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:49:48,381 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:49:48,383 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 11:50:17,086 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:50:17,088 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:50:17,090 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 11:51:27,057 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:51:27,059 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:51:27,061 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 11:51:27,062 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 11:51:55,794 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:51:55,796 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:51:55,798 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 11:51:55,799 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 11:52:14,230 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:52:14,232 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:53:01,372 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:53:01,375 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:53:01,376 - stock_anomaly_detector - INFO - Volume model: avg=57583205, std=17447193
+2025-07-08 11:53:32,524 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:53:32,526 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:53:32,526 - stock_anomaly_detector - INFO - Volume model: avg=57583205, std=17447193
+2025-07-08 11:53:52,463 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:53:52,510 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:53:52,515 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:53:52,518 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:53:53,199 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:53:53,244 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:53:53,251 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:53:53,256 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:53:54,444 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:53:54,485 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:53:55,201 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:53:55,245 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:53:55,249 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:53:55,254 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:53:56,602 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:53:56,646 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:53:56,649 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:53:56,654 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:53:57,358 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:53:57,400 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:53:57,403 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:53:57,407 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:53:57,815 - stock_anomaly_detector - WARNING - ANOMALY DETECTED: AAPL - PRICE_SPIKE - HIGH
+2025-07-08 11:53:57,815 - stock_anomaly_detector - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - MEDIUM
+2025-07-08 11:53:58,396 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:53:58,436 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:53:58,437 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 11:54:29,296 - stock_anomaly_detector - INFO - Database initialized successfully
+2025-07-08 11:55:00,018 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 11:55:00,020 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 11:59:00,319 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 11:59:00,356 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 11:59:00,360 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 11:59:00,362 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:59:01,057 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 11:59:01,097 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 11:59:01,102 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 11:59:01,105 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:59:01,979 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 11:59:02,017 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 11:59:03,581 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 11:59:03,620 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 11:59:03,622 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 11:59:03,628 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:59:04,339 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 11:59:04,379 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 11:59:04,382 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 11:59:04,387 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:59:05,382 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 11:59:05,422 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 11:59:05,427 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 11:59:05,431 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 11:59:06,306 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 11:59:06,343 - __main__ - INFO - No anomalies detected for META
+2025-07-08 11:59:06,343 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 12:04:08,606 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 12:04:08,648 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 12:04:08,651 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 12:04:08,655 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:04:09,350 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 12:04:09,396 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 12:04:09,400 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 12:04:09,402 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:04:10,460 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 12:04:10,497 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 12:04:11,384 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 12:04:11,419 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 12:04:11,424 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 12:04:11,427 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:04:12,340 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 12:04:12,380 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 12:04:12,384 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 12:04:12,388 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:04:13,253 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 12:04:13,288 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 12:04:13,293 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 12:04:13,295 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:04:15,109 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 12:04:15,154 - __main__ - INFO - No anomalies detected for META
+2025-07-08 12:04:15,155 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 12:09:17,487 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 12:09:17,526 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 12:09:17,531 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 12:09:17,535 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:09:19,155 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 12:09:19,190 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 12:09:19,194 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 12:09:19,197 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:09:20,278 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 12:09:20,318 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 12:09:21,393 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 12:09:21,431 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 12:09:21,436 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 12:09:21,439 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:09:22,504 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 12:09:22,542 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 12:09:22,547 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 12:09:22,550 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:09:23,619 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 12:09:23,661 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 12:09:23,666 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 12:09:23,670 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:09:25,113 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 12:09:25,152 - __main__ - INFO - No anomalies detected for META
+2025-07-08 12:09:25,152 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 12:14:27,364 - __main__ - INFO - Analyzing AAPL: $209.95 (-1.69%)
+2025-07-08 12:14:27,400 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DROP - HIGH
+2025-07-08 12:14:27,405 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SPIKE - HIGH
+2025-07-08 12:14:27,409 - __main__ - WARNING - ANOMALY DETECTED: AAPL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:14:28,473 - __main__ - INFO - Analyzing GOOGL: $176.79 (-1.53%)
+2025-07-08 12:14:28,511 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DROP - HIGH
+2025-07-08 12:14:28,515 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SPIKE - HIGH
+2025-07-08 12:14:28,519 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:14:29,601 - __main__ - INFO - Analyzing MSFT: $497.72 (-0.22%)
+2025-07-08 12:14:29,641 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DROP - HIGH
+2025-07-08 12:14:30,522 - __main__ - INFO - Analyzing TSLA: $293.94 (-6.79%)
+2025-07-08 12:14:30,558 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DROP - HIGH
+2025-07-08 12:14:30,562 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SPIKE - HIGH
+2025-07-08 12:14:30,566 - __main__ - WARNING - ANOMALY DETECTED: TSLA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:14:32,197 - __main__ - INFO - Analyzing AMZN: $223.47 (+0.03%)
+2025-07-08 12:14:32,234 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DROP - HIGH
+2025-07-08 12:14:32,238 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SPIKE - HIGH
+2025-07-08 12:14:32,242 - __main__ - WARNING - ANOMALY DETECTED: AMZN - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:14:33,152 - __main__ - INFO - Analyzing NVDA: $158.24 (-0.69%)
+2025-07-08 12:14:33,186 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DROP - HIGH
+2025-07-08 12:14:33,190 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SPIKE - HIGH
+2025-07-08 12:14:33,196 - __main__ - WARNING - ANOMALY DETECTED: NVDA - LSTM_PATTERN_ANOMALY - HIGH
+2025-07-08 12:14:34,243 - __main__ - INFO - Analyzing META: $718.35 (-0.09%)
+2025-07-08 12:14:34,276 - __main__ - INFO - No anomalies detected for META
+2025-07-08 12:14:34,276 - __main__ - INFO - Monitoring cycle completed. Waiting 300 seconds...
+2025-07-08 12:17:43,116 - __main__ - INFO - Database initialized successfully
+2025-07-08 12:17:43,116 - __main__ - INFO - Preparing anomaly monitor...
+2025-07-08 12:17:43,116 - __main__ - INFO - Fetching history for AAPL...
+2025-07-08 12:17:46,005 - __main__ - INFO - Fetched 250 rows for AAPL
+2025-07-08 12:17:46,007 - __main__ - INFO - Sanitized data. Rows: 249
+2025-07-08 12:17:46,007 - __main__ - INFO - Training stat for AAPL...
+2025-07-08 12:17:46,008 - __main__ - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:17:46,008 - __main__ - INFO - Training vol for AAPL...
+2025-07-08 12:17:46,008 - __main__ - INFO - Volume model: avg=57583205, std=17447193
+2025-07-08 12:17:46,008 - __main__ - INFO - Training seq for AAPL...
+2025-07-08 12:17:52,406 - __main__ - INFO - LSTM trained. Threshold: 0.142266
+2025-07-08 12:17:52,406 - __main__ - INFO - Fetching history for GOOGL...
+2025-07-08 12:17:52,702 - __main__ - INFO - Fetched 250 rows for GOOGL
+2025-07-08 12:17:52,705 - __main__ - INFO - Sanitized data. Rows: 249
+2025-07-08 12:17:52,705 - __main__ - INFO - Training stat for GOOGL...
+2025-07-08 12:17:52,705 - __main__ - INFO - Stat model: mean=174.51, std=4.17
+2025-07-08 12:17:52,706 - __main__ - INFO - Training vol for GOOGL...
+2025-07-08 12:17:52,706 - __main__ - INFO - Volume model: avg=41063115, std=21831331
+2025-07-08 12:17:52,706 - __main__ - INFO - Training seq for GOOGL...
+2025-07-08 12:17:59,009 - __main__ - INFO - LSTM trained. Threshold: 0.153086
+2025-07-08 12:17:59,009 - __main__ - INFO - Fetching history for MSFT...
+2025-07-08 12:17:59,212 - __main__ - INFO - Fetched 250 rows for MSFT
+2025-07-08 12:17:59,214 - __main__ - INFO - Sanitized data. Rows: 249
+2025-07-08 12:17:59,214 - __main__ - INFO - Training stat for MSFT...
+2025-07-08 12:17:59,214 - __main__ - INFO - Stat model: mean=484.71, std=10.17
+2025-07-08 12:17:59,215 - __main__ - INFO - Training vol for MSFT...
+2025-07-08 12:17:59,215 - __main__ - INFO - Volume model: avg=19940540, std=6651753
+2025-07-08 12:17:59,215 - __main__ - INFO - Training seq for MSFT...
+2025-07-08 12:18:05,229 - tensorflow - WARNING - 5 out of the last 15 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000029961F6B100> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-08 12:18:05,383 - __main__ - INFO - LSTM trained. Threshold: 0.143799
+2025-07-08 12:18:05,383 - __main__ - INFO - Fetching history for TSLA...
+2025-07-08 12:18:05,731 - __main__ - INFO - Fetched 250 rows for TSLA
+2025-07-08 12:18:05,733 - __main__ - INFO - Sanitized data. Rows: 249
+2025-07-08 12:18:05,734 - __main__ - INFO - Training stat for TSLA...
+2025-07-08 12:18:05,734 - __main__ - INFO - Stat model: mean=319.99, std=13.38
+2025-07-08 12:18:05,734 - __main__ - INFO - Training vol for TSLA...
+2025-07-08 12:18:05,734 - __main__ - INFO - Volume model: avg=115713880, std=32779512
+2025-07-08 12:18:05,735 - __main__ - INFO - Training seq for TSLA...
+2025-07-08 12:18:12,262 - tensorflow - WARNING - 5 out of the last 15 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000029963583060> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-08 12:18:12,427 - __main__ - INFO - LSTM trained. Threshold: 0.153216
+2025-07-08 12:18:12,428 - __main__ - INFO - Fetching history for AMZN...
+2025-07-08 12:18:12,605 - __main__ - INFO - Fetched 250 rows for AMZN
+2025-07-08 12:18:12,607 - __main__ - INFO - Sanitized data. Rows: 249
+2025-07-08 12:18:12,607 - __main__ - INFO - Training stat for AMZN...
+2025-07-08 12:18:12,608 - __main__ - INFO - Stat model: mean=216.01, std=4.52
+2025-07-08 12:18:12,608 - __main__ - INFO - Training vol for AMZN...
+2025-07-08 12:18:12,608 - __main__ - INFO - Volume model: avg=43149770, std=21209164
+2025-07-08 12:18:12,608 - __main__ - INFO - Training seq for AMZN...
+2025-07-08 12:18:18,828 - __main__ - INFO - LSTM trained. Threshold: 0.151377
+2025-07-08 12:18:18,828 - __main__ - INFO - Fetching history for NVDA...
+2025-07-08 12:18:19,115 - __main__ - INFO - Fetched 250 rows for NVDA
+2025-07-08 12:18:19,116 - __main__ - INFO - Sanitized data. Rows: 249
+2025-07-08 12:18:19,117 - __main__ - INFO - Training stat for NVDA...
+2025-07-08 12:18:19,117 - __main__ - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 12:18:19,117 - __main__ - INFO - Training vol for NVDA...
+2025-07-08 12:18:19,117 - __main__ - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 12:18:19,117 - __main__ - INFO - Training seq for NVDA...
+2025-07-08 12:18:25,313 - __main__ - INFO - LSTM trained. Threshold: 0.175073
+2025-07-08 12:18:25,313 - __main__ - INFO - Fetching history for META...
+2025-07-08 12:18:25,626 - __main__ - INFO - Fetched 250 rows for META
+2025-07-08 12:18:25,628 - __main__ - INFO - Sanitized data. Rows: 249
+2025-07-08 12:18:25,629 - __main__ - INFO - Training stat for META...
+2025-07-08 12:18:25,629 - __main__ - INFO - Stat model: mean=706.31, std=15.80
+2025-07-08 12:18:25,629 - __main__ - INFO - Training vol for META...
+2025-07-08 12:18:25,629 - __main__ - INFO - Volume model: avg=12055020, std=3688633
+2025-07-08 12:18:25,629 - __main__ - INFO - Training seq for META...
+2025-07-08 12:18:32,194 - __main__ - INFO - LSTM trained. Threshold: 0.129076
+2025-07-08 12:18:32,194 - __main__ - INFO - Monitor ready!
+2025-07-08 12:18:32,213 - __main__ - INFO - Starting live monitoring...
+2025-07-08 12:18:32,518 - __main__ - INFO - Checking AAPL: $209.95 (-1.69%)
+2025-07-08 12:18:32,553 - __main__ - WARNING - ANOMALY DETECTED: AAPL - PRICE_DIP - HIGH
+2025-07-08 12:18:32,557 - __main__ - WARNING - ANOMALY DETECTED: AAPL - VOLUME_SURGE - HIGH
+2025-07-08 12:18:32,561 - __main__ - WARNING - ANOMALY DETECTED: AAPL - SEQ_PATTERN_ANOMALY - MEDIUM
+2025-07-08 12:18:33,444 - __main__ - INFO - Checking GOOGL: $176.79 (-1.53%)
+2025-07-08 12:18:33,482 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - PRICE_DIP - HIGH
+2025-07-08 12:18:33,485 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - VOLUME_SURGE - HIGH
+2025-07-08 12:18:33,490 - __main__ - WARNING - ANOMALY DETECTED: GOOGL - SEQ_PATTERN_ANOMALY - HIGH
+2025-07-08 12:18:34,568 - __main__ - INFO - Checking MSFT: $497.72 (-0.22%)
+2025-07-08 12:18:34,606 - __main__ - WARNING - ANOMALY DETECTED: MSFT - PRICE_DIP - HIGH
+2025-07-08 12:18:35,493 - __main__ - INFO - Checking TSLA: $293.94 (-6.79%)
+2025-07-08 12:18:35,530 - __main__ - WARNING - ANOMALY DETECTED: TSLA - PRICE_DIP - HIGH
+2025-07-08 12:18:35,535 - __main__ - WARNING - ANOMALY DETECTED: TSLA - VOLUME_SURGE - HIGH
+2025-07-08 12:18:35,540 - __main__ - WARNING - ANOMALY DETECTED: TSLA - SEQ_PATTERN_ANOMALY - HIGH
+2025-07-08 12:18:36,427 - __main__ - INFO - Checking AMZN: $223.47 (+0.03%)
+2025-07-08 12:18:36,467 - __main__ - WARNING - ANOMALY DETECTED: AMZN - PRICE_DIP - HIGH
+2025-07-08 12:18:36,471 - __main__ - WARNING - ANOMALY DETECTED: AMZN - VOLUME_SURGE - HIGH
+2025-07-08 12:18:36,475 - __main__ - WARNING - ANOMALY DETECTED: AMZN - SEQ_PATTERN_ANOMALY - MEDIUM
+2025-07-08 12:18:37,926 - __main__ - INFO - Checking NVDA: $158.24 (-0.69%)
+2025-07-08 12:18:37,960 - __main__ - WARNING - ANOMALY DETECTED: NVDA - PRICE_DIP - HIGH
+2025-07-08 12:18:37,967 - __main__ - WARNING - ANOMALY DETECTED: NVDA - VOLUME_SURGE - HIGH
+2025-07-08 12:18:37,971 - __main__ - WARNING - ANOMALY DETECTED: NVDA - SEQ_PATTERN_ANOMALY - HIGH
+2025-07-08 12:18:38,459 - __main__ - INFO - Checking META: $718.35 (-0.09%)
+2025-07-08 12:18:38,496 - __main__ - INFO - No anomalies for META
+2025-07-08 12:18:38,497 - __main__ - INFO - Cycle done. Waiting 300 seconds...
+2025-07-08 12:19:03,764 - __main__ - INFO - Stopped by user
+2025-07-08 12:20:40,692 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:20:40,694 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:20:40,696 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:26:19,473 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:26:19,476 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:26:19,478 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:26:19,479 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:26:20,656 - tensorflow - WARNING - From C:\Users\admin\AppData\Roaming\Python\Python312\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-08 12:26:37,513 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:26:37,516 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:26:37,518 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:26:37,518 - stock_anomaly_detector - INFO - Stat model: mean=201.84, std=4.29
+2025-07-08 12:26:39,737 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:26:39,739 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:26:39,741 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:26:39,742 - stock_anomaly_detector - INFO - Stat model: mean=203.07, std=5.39
+2025-07-08 12:26:41,255 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:26:41,257 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:26:41,260 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:26:41,261 - stock_anomaly_detector - INFO - Stat model: mean=203.07, std=5.39
+2025-07-08 12:26:51,274 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:26:51,277 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:26:51,280 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:26:51,281 - stock_anomaly_detector - INFO - Stat model: mean=203.07, std=5.39
+2025-07-08 12:26:53,325 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 12:26:53,327 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:26:53,330 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:26:53,330 - stock_anomaly_detector - INFO - Stat model: mean=138.12, std=13.09
+2025-07-08 12:29:49,843 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 12:29:49,846 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:29:49,848 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:29:49,849 - stock_anomaly_detector - INFO - Stat model: mean=153.56, std=5.69
+2025-07-08 12:29:57,460 - stock_anomaly_detector - INFO - Fetched 61 rows for TSLA
+2025-07-08 12:29:57,462 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:29:57,464 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:29:57,465 - stock_anomaly_detector - INFO - Stat model: mean=321.05, std=15.60
+2025-07-08 12:30:02,855 - stock_anomaly_detector - INFO - Fetched 61 rows for TSLA
+2025-07-08 12:30:02,857 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:30:02,859 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:30:02,859 - stock_anomaly_detector - INFO - Stat model: mean=326.95, std=19.16
+2025-07-08 12:30:06,948 - stock_anomaly_detector - INFO - Fetched 61 rows for TSLA
+2025-07-08 12:30:06,952 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:30:06,955 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:30:06,955 - stock_anomaly_detector - INFO - Stat model: mean=326.95, std=19.16
+2025-07-08 12:32:56,977 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:32:56,979 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:32:56,981 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:32:56,982 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:32:57,722 - tensorflow - WARNING - From C:\Users\admin\AppData\Roaming\Python\Python312\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-08 12:33:26,848 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:33:26,851 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:33:26,853 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:33:26,853 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:33:27,592 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:33:27,594 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:33:27,596 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:33:27,597 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:33:30,383 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:33:30,385 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:33:30,388 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:33:30,388 - stock_anomaly_detector - INFO - Stat model: mean=203.26, std=5.18
+2025-07-08 12:33:35,773 - stock_anomaly_detector - INFO - Fetched 61 rows for AMZN
+2025-07-08 12:33:35,776 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:33:35,778 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:33:35,778 - stock_anomaly_detector - INFO - Stat model: mean=211.27, std=6.42
+2025-07-08 12:36:22,805 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:36:22,808 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:36:22,809 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:36:22,809 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:36:25,780 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:36:25,781 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:36:25,782 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:36:25,782 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:36:33,780 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:36:33,782 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:36:33,784 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:36:33,784 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:36:36,009 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:36:36,011 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:36:36,013 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:36:36,013 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:36:39,360 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:36:39,361 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:36:39,363 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:36:39,363 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:36:42,719 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:36:42,721 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:36:42,723 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:36:42,723 - stock_anomaly_detector - INFO - Stat model: mean=203.00, std=5.32
+2025-07-08 12:36:43,292 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:36:43,294 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:36:43,296 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:36:43,296 - stock_anomaly_detector - INFO - Stat model: mean=202.35, std=5.20
+2025-07-08 12:36:46,611 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 12:36:46,613 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:36:46,614 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:36:46,615 - stock_anomaly_detector - INFO - Stat model: mean=673.36, std=38.67
+2025-07-08 12:58:20,634 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:58:20,637 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:58:20,639 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:58:20,640 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:58:21,332 - tensorflow - WARNING - From C:\Users\admin\AppData\Roaming\Python\Python312\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-08 12:58:26,586 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:58:26,588 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:58:26,590 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:58:26,592 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:58:35,701 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:58:35,704 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:58:35,706 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:58:35,706 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:58:38,490 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:58:38,492 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:58:38,495 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:58:38,495 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:58:38,496 - stock_anomaly_detector - INFO - Volume model: avg=57583205, std=17447193
+2025-07-08 12:58:50,383 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 12:58:50,385 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:58:50,388 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:58:50,388 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 12:58:50,389 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 12:58:54,887 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 12:58:54,889 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:58:54,891 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:58:54,893 - stock_anomaly_detector - INFO - Stat model: mean=144.01, std=8.43
+2025-07-08 12:58:54,893 - stock_anomaly_detector - INFO - Volume model: avg=203030455, std=55797584
+2025-07-08 12:58:58,016 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 12:58:58,019 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:58:58,021 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:58:58,021 - stock_anomaly_detector - INFO - Stat model: mean=138.12, std=13.09
+2025-07-08 12:58:58,022 - stock_anomaly_detector - INFO - Volume model: avg=205466189, std=55669012
+2025-07-08 12:59:01,362 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 12:59:01,364 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:59:01,366 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:59:01,367 - stock_anomaly_detector - INFO - Stat model: mean=138.12, std=13.09
+2025-07-08 12:59:01,367 - stock_anomaly_detector - INFO - Volume model: avg=205466189, std=55669012
+2025-07-08 12:59:03,972 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 12:59:03,975 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:59:03,977 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:59:03,978 - stock_anomaly_detector - INFO - Stat model: mean=138.12, std=13.09
+2025-07-08 12:59:03,979 - stock_anomaly_detector - INFO - Volume model: avg=205466189, std=55669012
+2025-07-08 12:59:24,055 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:59:24,057 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:59:24,058 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:59:24,059 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:59:28,706 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 12:59:28,709 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:59:28,711 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:59:28,712 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 12:59:28,712 - stock_anomaly_detector - INFO - Volume model: avg=57583205, std=17447193
+2025-07-08 12:59:37,264 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 12:59:37,267 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 12:59:37,269 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 12:59:37,269 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 12:59:37,270 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:00:25,432 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:00:25,433 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:00:25,435 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:00:25,436 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:00:25,436 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:01:25,326 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:01:25,328 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:01:25,329 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:01:25,330 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:01:25,330 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:02:25,595 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:02:25,598 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:02:25,599 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:02:25,599 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:02:25,599 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:03:25,664 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:03:25,666 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:03:25,668 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:03:25,668 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:03:25,669 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:04:25,375 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:04:25,376 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:04:25,378 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:04:25,378 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:04:25,379 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:05:25,638 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:05:25,640 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:05:25,641 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:05:25,642 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:05:25,642 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:06:26,314 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:06:26,316 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:06:26,317 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:06:26,317 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:06:26,318 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:08:01,488 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:08:01,492 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:08:01,493 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:08:01,493 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:08:01,494 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:08:36,087 - stock_anomaly_detector - INFO - Fetched 61 rows for NVDA
+2025-07-08 13:08:36,090 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:08:36,092 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:08:36,093 - stock_anomaly_detector - INFO - Stat model: mean=149.07, std=6.61
+2025-07-08 13:08:36,094 - stock_anomaly_detector - INFO - Volume model: avg=183370705, std=38217603
+2025-07-08 13:08:36,526 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1395' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\admin\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python312\site-packages\streamlit\web\bootstrap.py", line 348, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-07-08 13:08:36,847 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:08:36,850 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:08:36,852 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:08:36,852 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:08:37,696 - tensorflow - WARNING - From C:\Users\admin\AppData\Roaming\Python\Python312\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-08 13:09:08,645 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:09:08,647 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:09:08,650 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:09:08,650 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:09:08,651 - stock_anomaly_detector - INFO - Volume model: avg=57583205, std=17447193
+2025-07-08 13:09:24,079 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:09:24,082 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:09:24,084 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:09:24,084 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:09:31,894 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:09:31,896 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:09:31,898 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:09:31,899 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:09:40,467 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:09:40,469 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:09:40,471 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:09:40,471 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:09:43,790 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:09:43,794 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:09:43,796 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:09:43,797 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:09:46,768 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:09:46,770 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:09:46,773 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:09:46,773 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:10:00,355 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:10:00,357 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:10:00,359 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:10:00,360 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:10:15,232 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:10:15,233 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:10:15,236 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:10:15,236 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:10:30,291 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:10:30,293 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:10:30,295 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:10:30,295 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:10:45,164 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:10:45,166 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:10:45,167 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:10:45,167 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:11:00,422 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:11:00,423 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:11:00,425 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:11:00,425 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:11:16,227 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:11:16,230 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:11:16,231 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:11:16,232 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:11:57,150 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:11:57,152 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:11:57,154 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:11:57,154 - stock_anomaly_detector - INFO - Stat model: mean=203.43, std=5.55
+2025-07-08 13:11:59,760 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:11:59,762 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:11:59,764 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:11:59,765 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:12:33,052 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:12:33,054 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:12:33,055 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:12:33,056 - stock_anomaly_detector - INFO - Stat model: mean=202.99, std=4.98
+2025-07-08 13:12:41,797 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:12:41,798 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:12:41,802 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:12:41,802 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:13:24,395 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:13:24,397 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:13:24,399 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:13:24,399 - stock_anomaly_detector - INFO - Stat model: mean=205.44, std=5.13
+2025-07-08 13:13:25,343 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:13:25,345 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:13:25,348 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:13:25,348 - stock_anomaly_detector - INFO - Stat model: mean=209.79, std=3.41
+2025-07-08 13:13:38,171 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:13:38,174 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:13:38,176 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:13:38,177 - stock_anomaly_detector - INFO - Stat model: mean=209.79, std=3.41
+2025-07-08 13:13:40,387 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:13:40,389 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:13:40,391 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:13:40,392 - stock_anomaly_detector - INFO - Stat model: mean=209.79, std=3.41
+2025-07-08 13:13:42,620 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:13:42,622 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:13:42,624 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:13:42,625 - stock_anomaly_detector - INFO - Stat model: mean=209.79, std=3.41
+2025-07-08 13:13:46,162 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:13:46,164 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:13:46,166 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:13:46,167 - stock_anomaly_detector - INFO - Stat model: mean=209.79, std=3.41
+2025-07-08 13:13:52,108 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:13:52,110 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:13:52,112 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:13:52,113 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:13:55,832 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:13:55,837 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:13:55,841 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:13:55,841 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:00,476 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:00,478 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:00,480 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:00,481 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:02,726 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:02,729 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:02,731 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:02,731 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:03,836 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:03,838 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:03,841 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:03,841 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:06,432 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:06,435 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:06,437 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:06,437 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:09,961 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:09,963 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:09,965 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:09,966 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:12,196 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:12,198 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:12,201 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:12,201 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:13,679 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:13,681 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:13,683 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:13,684 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:15,562 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:15,565 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:15,567 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:15,567 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:18,935 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:18,937 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:18,939 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:18,940 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:20,958 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:20,960 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:20,961 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:20,962 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:23,934 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:23,937 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:23,939 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:23,940 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:25,401 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:25,402 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:25,405 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:25,406 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:25,745 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:25,747 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:25,750 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:25,750 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:28,013 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:28,016 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:28,019 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:28,019 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:28,019 - stock_anomaly_detector - INFO - Volume model: avg=11242400, std=2997770
+2025-07-08 13:14:30,804 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:30,806 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:30,808 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:30,809 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:30,809 - stock_anomaly_detector - INFO - Volume model: avg=11242400, std=2997770
+2025-07-08 13:14:33,585 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:33,587 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:33,589 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:33,589 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:33,590 - stock_anomaly_detector - INFO - Volume model: avg=11242400, std=2997770
+2025-07-08 13:14:33,987 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:33,990 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:33,992 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:33,992 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:33,993 - stock_anomaly_detector - INFO - Volume model: avg=11242400, std=2997770
+2025-07-08 13:14:39,914 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:39,917 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:39,919 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:39,919 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:43,628 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:43,630 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:43,632 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:43,633 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:14:55,343 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:14:55,344 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:14:55,346 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:14:55,348 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:15:04,277 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:15:04,278 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:15:04,279 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:15:04,280 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:15:14,341 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:15:14,343 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:15:14,344 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:15:14,345 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:15:23,795 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:15:23,797 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:15:23,798 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:15:23,799 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:15:34,221 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:15:34,223 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:15:34,225 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:15:34,226 - stock_anomaly_detector - INFO - Stat model: mean=721.65, std=9.48
+2025-07-08 13:15:45,571 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:15:45,573 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:15:45,575 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:15:54,313 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:15:54,315 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:15:54,317 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:05,323 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:16:05,325 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:05,327 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:14,399 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:16:14,402 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:14,404 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:30,207 - stock_anomaly_detector - INFO - Fetched 61 rows for META
+2025-07-08 13:16:30,208 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:30,210 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:32,619 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:16:32,621 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:32,622 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:32,622 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:16:39,507 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:16:39,509 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:39,511 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:46,409 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:16:46,411 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:46,413 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:46,413 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:16:50,855 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:16:50,857 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:50,859 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:50,859 - stock_anomaly_detector - INFO - Stat model: mean=202.42, std=5.07
+2025-07-08 13:16:50,860 - stock_anomaly_detector - INFO - Volume model: avg=57583205, std=17447193
+2025-07-08 13:16:55,688 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:16:55,690 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:55,691 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:16:55,692 - stock_anomaly_detector - INFO - Volume model: avg=57583205, std=17447193
+2025-07-08 13:16:58,290 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:16:58,291 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:16:58,293 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59
+2025-07-08 13:17:33,819 - stock_anomaly_detector - INFO - Fetched 61 rows for AAPL
+2025-07-08 13:17:33,822 - stock_anomaly_detector - INFO - Sanitized data. Rows: 60
+2025-07-08 13:17:33,823 - stock_anomaly_detector - INFO - Sanitized data. Rows: 59

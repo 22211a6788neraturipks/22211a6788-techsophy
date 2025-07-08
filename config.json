@@ -1,0 +1,26 @@
+{
+    "symbols": ["AAPL", "GOOGL", "MSFT", "TSLA", "AMZN", "NVDA", "META"],
+    "monitoring_interval": 300,
+    "rate_limit_delay": 1.0,
+    "training_period": "1y",
+    "email_enabled": false,
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender": "your_email@gmail.com",
+        "password": "your_app_password",
+        "recipient": "alerts@yourdomain.com"
+    },
+    "statistical_detector": {
+        "window_size": 20,
+        "threshold_multiplier": 2.0
+    },
+    "volume_detector": {
+        "window_size": 20,
+        "threshold_multiplier": 3.0
+    },
+    "lstm_detector": {
+        "sequence_length": 30,
+        "threshold_percentile": 95
+    }
+}
